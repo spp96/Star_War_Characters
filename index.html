@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star Wars</title>
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6XIYpkCUKvDL77B1D4E_0NTakUOAbEyvhinBbVwjE7a-1lwtr7sf2t_ZYq62i5VXDqOs&usqp=CAU" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <div id="main">
+      <img
+        id="logo"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6XIYpkCUKvDL77B1D4E_0NTakUOAbEyvhinBbVwjE7a-1lwtr7sf2t_ZYq62i5VXDqOs&usqp=CAU"
+        alt="error"
+      />
+      <div class="sub">
+        <input
+          type="text"
+          name=""
+          id="query"
+          placeholder="Search characters"
+          oninput="debouncing(main,1000)"
+        />
+        <hr />
+        <div id="myData"></div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="/scripts/index.js"></script>
